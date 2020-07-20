@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+  <test thread-count="5" name="TestNGSample">
+    <classes>
+      <class name="com.multisite.MiniRegression.TestSampleMiniRegression"/>
+      <class name="com.multisite.Library.TestBase"/>
+      <class name="com.multisite.UIVerification.TestSampleUIVerification"/>
+      <class name="com.multisite.Regression.TestSampleRegression"/>
+    </classes>
+  </test> <!-- TestNGSample -->
+</suite> <!-- Test -->
